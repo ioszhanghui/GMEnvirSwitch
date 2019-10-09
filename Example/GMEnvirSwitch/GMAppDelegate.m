@@ -7,13 +7,61 @@
 //
 
 #import "GMAppDelegate.h"
+#import "GMEnvirSwitch.h"
+#import "GMViewController.h"
+
 
 @implementation GMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    UITabBarController * tab = [[UITabBarController alloc]init];
+   UINavigationController * nvi=  [[UINavigationController alloc]initWithRootViewController:[GMViewController new]];
+    tab.viewControllers = @[nvi];
+    self.window.rootViewController = tab ;
+//    self.window.rootViewController = ;
+    [GMEnvirSwitch setUpEnvirSwitchDelegate:self];
     // Override point for customization after application launch.
     return YES;
+}
+
+-(NSArray *)configEnvirURL{
+    return @[
+             @{
+                 @"envirType":@"生产环境",
+                 @"select":@"0",
+                 @"list":@[
+                         @{
+                             @"funcName":@"首页",
+                             @"dormain":@"http://www.baidu.com"
+                             }
+                         ]
+                 },
+             @{
+                 @"envirType":@"UAT环境",
+                 @"select":@"0",
+                 @"list":@[
+                         @{
+                             @"funcName":@"首页",
+                             @"dormain":@"http://www.baidu.com"
+                             }
+                         ]
+                 },
+             @{
+                 @"envirType":@"本地环境",
+                 @"select":@"0",
+                 @"list":@[
+                         @{
+                             @"funcName":@"首页",
+                             @"dormain":@"http://www.baidu.com"
+                             }
+                         ]
+                 }
+             ];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

@@ -1,0 +1,49 @@
+{
+  "name": "GMEnvirSwitch",
+  "version": "0.1.0",
+  "summary": "A short description of GMEnvirSwitch.",
+  "description": "国美环境切换",
+  "homepage": "https://github.com/ioszhanghui@163.com/GMEnvirSwitch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ioszhanghui@163.com": "yomingyo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ioszhanghui@163.com/GMEnvirSwitch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GMEnvirSwitch/Classes/**/*",
+  "prefix_header_contents": [
+    "#import<GMmacros/macros.h>",
+    "#import<Masonry/Masonry.h>",
+    "#import<MJExtension/MJExtension.h>",
+    "#import<GMDataTool/GM_DataHeader.h>",
+    "#import<GMSandboxTool/GMFileUtil.h>"
+  ],
+  "resources": [
+    "GMEnvirSwitch/Assets/*.png"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "GMmacros": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "GMSandboxTool": [
+
+    ],
+    "GMDataTool": [
+
+    ]
+  }
+}

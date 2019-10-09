@@ -1,0 +1,6 @@
+framework module GMEnvirSwitch {
+  umbrella header "GMEnvirSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}

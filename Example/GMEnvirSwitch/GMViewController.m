@@ -7,6 +7,8 @@
 //
 
 #import "GMViewController.h"
+#import "GMEnvirHeader.h"
+
 
 @interface GMViewController ()
 
@@ -17,7 +19,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"currentEnvirType**%@",[GMEnvirSwitch currentEnvirType]);
+    NSLog(@"currentEnvirConfig**%@",[GMEnvirSwitch currentEnvirConfig]);
+    NSLog(@"getURLForModule**%@",[GMEnvirSwitch getURLForModule:@"首页"]);
+
 }
 
 - (void)didReceiveMemoryWarning

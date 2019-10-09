@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1199866AD9FEE285CF3D61CD /* Pods_GMEnvirSwitch_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E87C8513083D662C53B5648 /* Pods_GMEnvirSwitch_Example.framework */; };
+		5622DFE83965F8EB2CCDD60C /* libPods-GMEnvirSwitch_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FDA5C4284F76DEE24A6E475 /* libPods-GMEnvirSwitch_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6D5A134E99CDEAED7CB615E1 /* Pods_GMEnvirSwitch_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA9540D0CBADA50070A7D72 /* Pods_GMEnvirSwitch_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E22F02F188F48983A3219638 /* libPods-GMEnvirSwitch_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 727551168C7F0E8F1644C0D6 /* libPods-GMEnvirSwitch_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1068F614C7ECCB94C8917345 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1E87C8513083D662C53B5648 /* Pods_GMEnvirSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMEnvirSwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1068F614C7ECCB94C8917345 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1FDA5C4284F76DEE24A6E475 /* libPods-GMEnvirSwitch_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GMEnvirSwitch_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEF8D9F8E2D88324FBD1DE0 /* Pods-GMEnvirSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMEnvirSwitch_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GMEnvirSwitch_Tests/Pods-GMEnvirSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GMEnvirSwitch_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMEnvirSwitch_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,12 +59,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		62C3A40F0EC8DF95438CC722 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		62C3A40F0EC8DF95438CC722 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		727551168C7F0E8F1644C0D6 /* libPods-GMEnvirSwitch_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GMEnvirSwitch_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ACA77F26A4229A212DA850 /* Pods-GMEnvirSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMEnvirSwitch_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GMEnvirSwitch_Example/Pods-GMEnvirSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
-		854B22C19705797584245573 /* GMEnvirSwitch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GMEnvirSwitch.podspec; path = ../GMEnvirSwitch.podspec; sourceTree = "<group>"; };
+		854B22C19705797584245573 /* GMEnvirSwitch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GMEnvirSwitch.podspec; path = ../GMEnvirSwitch.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9FA9540D0CBADA50070A7D72 /* Pods_GMEnvirSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMEnvirSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02175108CD0F842375C34EE /* Pods-GMEnvirSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMEnvirSwitch_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GMEnvirSwitch_Tests/Pods-GMEnvirSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4F3B6FAE8D5914DE0EADC13 /* Pods-GMEnvirSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMEnvirSwitch_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GMEnvirSwitch_Example/Pods-GMEnvirSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				1199866AD9FEE285CF3D61CD /* Pods_GMEnvirSwitch_Example.framework in Frameworks */,
+				E22F02F188F48983A3219638 /* libPods-GMEnvirSwitch_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				6D5A134E99CDEAED7CB615E1 /* Pods_GMEnvirSwitch_Tests.framework in Frameworks */,
+				5622DFE83965F8EB2CCDD60C /* libPods-GMEnvirSwitch_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				1E87C8513083D662C53B5648 /* Pods_GMEnvirSwitch_Example.framework */,
-				9FA9540D0CBADA50070A7D72 /* Pods_GMEnvirSwitch_Tests.framework */,
+				727551168C7F0E8F1644C0D6 /* libPods-GMEnvirSwitch_Example.a */,
+				1FDA5C4284F76DEE24A6E475 /* libPods-GMEnvirSwitch_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				0BE5DB4E0CEE194FC88C532E /* [CP] Embed Pods Frameworks */,
+				55B6E76832B3BD00020A7C94 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,7 +226,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				D54A8FFCDB65E687C7755A1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "ioszhanghui@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8LSS8PHWW5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -295,22 +297,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0BE5DB4E0CEE194FC88C532E /* [CP] Embed Pods Frameworks */ = {
+		55B6E76832B3BD00020A7C94 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GMEnvirSwitch_Example/Pods-GMEnvirSwitch_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GMEnvirSwitch/GMEnvirSwitch.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-GMEnvirSwitch_Example/Pods-GMEnvirSwitch_Example-resources.sh",
+				"${PODS_ROOT}/../../GMEnvirSwitch/Assets/Artboard Copy.png",
+				"${PODS_ROOT}/../../GMEnvirSwitch/Assets/Artboard Copy@2x.png",
+				"${PODS_ROOT}/../../GMEnvirSwitch/Assets/Artboard Copy@3x.png",
+				"${PODS_ROOT}/../../GMEnvirSwitch/Assets/icon_duigou0101.png",
+				"${PODS_ROOT}/../../GMEnvirSwitch/Assets/icon_duigou0101@2x.png",
+				"${PODS_ROOT}/../../GMEnvirSwitch/Assets/icon_duigou0101@3x.png",
+				"${PODS_ROOT}/../../GMEnvirSwitch/Assets/icon_duigou0102.png",
+				"${PODS_ROOT}/../../GMEnvirSwitch/Assets/icon_duigou0102@2x.png",
+				"${PODS_ROOT}/../../GMEnvirSwitch/Assets/icon_duigou0102@3x.png",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GMEnvirSwitch.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Artboard Copy.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Artboard Copy@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Artboard Copy@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_duigou0101.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_duigou0101@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_duigou0101@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_duigou0102.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_duigou0102@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_duigou0102@3x.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GMEnvirSwitch_Example/Pods-GMEnvirSwitch_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GMEnvirSwitch_Example/Pods-GMEnvirSwitch_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A27BE5EFB0AA681B449E446F /* [CP] Check Pods Manifest.lock */ = {
@@ -347,24 +365,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D54A8FFCDB65E687C7755A1A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GMEnvirSwitch_Tests/Pods-GMEnvirSwitch_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GMEnvirSwitch_Tests/Pods-GMEnvirSwitch_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -504,6 +504,7 @@
 			baseConfigurationReference = D4F3B6FAE8D5914DE0EADC13 /* Pods-GMEnvirSwitch_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8LSS8PHWW5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GMEnvirSwitch/GMEnvirSwitch-Prefix.pch";
 				INFOPLIST_FILE = "GMEnvirSwitch/GMEnvirSwitch-Info.plist";
@@ -511,6 +512,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -520,6 +522,7 @@
 			baseConfigurationReference = 84ACA77F26A4229A212DA850 /* Pods-GMEnvirSwitch_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8LSS8PHWW5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GMEnvirSwitch/GMEnvirSwitch-Prefix.pch";
 				INFOPLIST_FILE = "GMEnvirSwitch/GMEnvirSwitch-Info.plist";
@@ -527,6 +530,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

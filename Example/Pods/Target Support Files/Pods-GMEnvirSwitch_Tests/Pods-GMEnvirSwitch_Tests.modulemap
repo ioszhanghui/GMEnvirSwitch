@@ -1,0 +1,6 @@
+module Pods_GMEnvirSwitch_Tests {
+  umbrella header "Pods-GMEnvirSwitch_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

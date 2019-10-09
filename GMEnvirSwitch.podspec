@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+国美环境切换
                        DESC
 
   s.homepage         = 'https://github.com/ioszhanghui@163.com/GMEnvirSwitch'
@@ -28,15 +28,21 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ioszhanghui@163.com/GMEnvirSwitch.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '9.0'
+  s.requires_arc = true
   s.source_files = 'GMEnvirSwitch/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'GMEnvirSwitch' => ['GMEnvirSwitch/Assets/*.png']
-  # }
+  
+  s.prefix_header_contents = '#import<GMmacros/macros.h>','#import<Masonry/Masonry.h>','#import<MJExtension/MJExtension.h>','#import<GMDataTool/GM_DataHeader.h>','#import<GMSandboxTool/GMFileUtil.h>'
+  
+  s.resources = ['GMEnvirSwitch/Assets/*.png']
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'Masonry'
+    s.dependency 'GMmacros'
+    s.dependency 'MJExtension'
+    s.dependency 'GMSandboxTool'
+    s.dependency 'GMDataTool'
+    
 end

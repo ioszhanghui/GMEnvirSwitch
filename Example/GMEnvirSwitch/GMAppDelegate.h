@@ -7,8 +7,9 @@
 //
 
 @import UIKit;
+#import "GMEnvirHeader.h"
 
-@interface GMAppDelegate : UIResponder <UIApplicationDelegate>
+@interface GMAppDelegate : UIResponder <UIApplicationDelegate,GMURLConfigProtocol>
 
 @property (strong, nonatomic) UIWindow *window;
 
