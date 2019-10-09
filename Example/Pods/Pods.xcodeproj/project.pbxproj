@@ -1463,6 +1463,31 @@
 			};
 			name = Debug;
 		};
+		758F1FAE009E02772100B9671F51B243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDD3EE79A8C54D58C65F1764AC6B2F6 /* GMEnvirSwitch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GMEnvirSwitch/GMEnvirSwitch-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GMEnvirSwitch;
+				PRODUCT_NAME = GMEnvirSwitch;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		830CB7483987B58922099DED0B600559 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8AABFC76CF581BD88CBF2A12F9BEAD6A /* GMSandboxTool.xcconfig */;
@@ -1478,31 +1503,6 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = GMSandboxTool;
 				PRODUCT_NAME = GMSandboxTool;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8B6483AF778ACC82E3D6D96A5AA22EE3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DDD3EE79A8C54D58C65F1764AC6B2F6 /* GMEnvirSwitch.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/GMEnvirSwitch/GMEnvirSwitch-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = GMEnvirSwitch;
-				PRODUCT_NAME = GMEnvirSwitch;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1534,6 +1534,30 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		9CE4D2A72BE66979CB3222B553B5055D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDD3EE79A8C54D58C65F1764AC6B2F6 /* GMEnvirSwitch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GMEnvirSwitch/GMEnvirSwitch-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GMEnvirSwitch;
+				PRODUCT_NAME = GMEnvirSwitch;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		9FD81E47A9DBA158CB5AADA96B71055B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1624,30 +1648,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E78107058FD87CF90CEF6CA4378FB3E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DDD3EE79A8C54D58C65F1764AC6B2F6 /* GMEnvirSwitch.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/GMEnvirSwitch/GMEnvirSwitch-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = GMEnvirSwitch;
-				PRODUCT_NAME = GMEnvirSwitch;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1783,8 +1783,8 @@
 		9A8366184199575C5EFF3D7DB789D3D2 /* Build configuration list for PBXNativeTarget "GMEnvirSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E78107058FD87CF90CEF6CA4378FB3E4 /* Debug */,
-				8B6483AF778ACC82E3D6D96A5AA22EE3 /* Release */,
+				9CE4D2A72BE66979CB3222B553B5055D /* Debug */,
+				758F1FAE009E02772100B9671F51B243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

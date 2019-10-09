@@ -72,7 +72,7 @@ THE SOFTWARE.
 
 ## GMmacros
 
-Copyright (c) 2019 ioszhanghui@163.com <ioszhanghui@163.com>
+Copyright (c) 2019 ioszhanghui@163.com <yomingyo@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

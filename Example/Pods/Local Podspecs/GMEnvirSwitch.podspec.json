@@ -1,9 +1,9 @@
 {
   "name": "GMEnvirSwitch",
   "version": "0.1.0",
-  "summary": "A short description of GMEnvirSwitch.",
+  "summary": "切换测试环境",
   "description": "国美环境切换",
-  "homepage": "https://github.com/ioszhanghui@163.com/GMEnvirSwitch",
+  "homepage": "https://github.com/ioszhanghui/GMEnvirSwitch.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,12 +12,13 @@
     "ioszhanghui@163.com": "yomingyo@gmail.com"
   },
   "source": {
-    "git": "https://github.com/ioszhanghui@163.com/GMEnvirSwitch.git",
+    "git": "https://github.com/ioszhanghui/GMEnvirSwitch.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
+  "requires_arc": true,
   "source_files": "GMEnvirSwitch/Classes/**/*",
   "prefix_header_contents": [
     "#import<GMmacros/macros.h>",

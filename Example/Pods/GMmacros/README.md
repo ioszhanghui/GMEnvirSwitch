@@ -22,7 +22,7 @@ pod 'GMmacros'
 
 ## Author
 
-ioszhanghui@163.com, ioszhanghui@163.com
+ioszhanghui@163.com, yomingyo@gmail.com
 
 ## License
 

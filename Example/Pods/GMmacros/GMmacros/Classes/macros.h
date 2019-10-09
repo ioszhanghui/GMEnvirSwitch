@@ -9,11 +9,6 @@
 #ifndef macros_h
 #define macros_h
 
-/*点击 有回调 */
-typedef void(^ClickBlock)(id objc);
-
-
-
 //适配iOS11的代码
 #define  adjustsScrollViewInsets(scrollView)\
 do {\
@@ -65,16 +60,6 @@ _Pragma("clang diagnostic pop")\
 //字典是否为空
 #define kDictIsEmpty(dic) (dic == nil || ![dic isKindOfClass:[NSDictionary class]] || dic.allKeys.count == 0)
 
-/******************    TabBar          *************/
-#define MallClassKey   @"rootVCClassString"
-#define MallTitleKey   @"title"
-#define MallImgKey     @"imageName"
-#define MallSelImgKey  @"selectedImageName"
-
-//#define CityId @"CityId"//城市ID
-//#define DistrictId @"DistrictId"//区域ID
-#define Kid @"Kid"//kid的值
-
 
 /*****************  屏幕适配  ******************/
 #define iPhoneX  (ScreenH == 812)
@@ -118,17 +103,6 @@ iPhoneXs Max 的分辨率：2688 * 1242 || pt: 896 * 414
 
 #define GM_Clear_Color [UIColor clearColor]
 
-//全局背景色
-#define GMBGColor255 RGB(255,255,255)
-#define GMBGGrayColor240 RGB(240,240,240)
-#define GMBGSepLineColor HEXCOLOR(0xDDDDDD)
-#define GMBGSectionSepColorF3F5F7 HEXCOLOR(0xF3F5F7)
-#define GMRedTextColor238_50_40 RGB(238,50,40)
-#define GMBlackTextColor51 RGB(51,51,51)
-#define GMGrayTextColor153 RGB(153,153,153)
-#define GMGrayTextColor102 RGB(102,102,102)
-#define GMBlueTextColor27_132_246 RGB(27,132,246)
-
 #define PFR [[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0 ? @"PingFangSC-Regular" : @"PingFang SC"
 #define PFHK [[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0 ? @"PingFangHK-Medium" : @"PingFang SC"
 #define PFM [[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0 ? @"PingFangSC-Medium" : @"PingFang SC"
@@ -159,13 +133,6 @@ iPhoneXs Max 的分辨率：2688 * 1242 || pt: 896 * 414
 #define APPDELEGATE ((AppDelegate *)[UIApplication sharedApplication].delegate)
 #define KEYWINDOW  [UIApplication sharedApplication].keyWindow
 
-#pragma mark 占位图
-/** 占位图小国美LOGO */
-#define PlaceHolderSmallWithSize(w,h) [UITools PlaceHolderImageWithImage:@"HoldPosition_Small" width:w height:h]
-/** 占位图中国美LOGO */
-#define PlaceHolderMiddleWithSize(w,h) [UITools PlaceHolderImageWithImage:@"HoldPosition_Middle" width:w height:h]
-/** 占位图大国美LOGO */
-#define PlaceHolderLargeWithSize(w,h) [UITools PlaceHolderImageWithImage:@"HoldPosition_Big" width:w height:h]
 
 //获取当前版本号
 #define BUNDLE_VERSION [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"]
@@ -180,18 +147,8 @@ iPhoneXs Max 的分辨率：2688 * 1242 || pt: 896 * 414
 
 //图片链接出路
 #define Url(urlStr)  [NSURL URLWithString:urlStr]
-//处理金额显示
-#define ShowPrice(price)  [GMFilterTool handlePrice:price]
 
-//小程序分享路径
-#define MINIProgrameGroupDetail @"pages/multipleVarieties/multipleVarieties"   //组团详情页
-#define MINIProgrameProductDetail @"pages/detail/detail"    //商品详情页
-#define MINIProgrameCouponDetail @"pages/productDetail/productDetail" //领券商品详情
-#define MINIProgrameBrandPage @"pages/brand/index"          //品牌馆
-#define MINIProgrameHotChannel @"pages/brand/index"         //热门频道
-#define MINIProgrameHomePage   @"pages/index/index"         //首页
-#define MINIProgramGetCoupon   @"/pages/getCoupons/getCoupons"  //领券详情页
-#define MINIProgramCouponList  @"/pages/coupons/inlet/index"    //领券列表页
+
 
 //*****************************************************************
 // MARK: - Getter

@@ -13,7 +13,7 @@ PODS:
     - GMSandboxTool
     - Masonry
     - MJExtension
-  - GMmacros (0.2.0)
+  - GMmacros (0.1.0)
   - GMSandboxTool (0.1.0)
   - Masonry (1.1.0)
   - MJExtension (3.0.17)
@@ -23,14 +23,13 @@ DEPENDENCIES:
   - GMEnvirSwitch (from `../`)
 
 SPEC REPOS:
-  http://code.ds.gome.com.cn/gitlab/zhanghui-ds5/PrivateRepo.git:
-    - GMmacros
   https://github.com/cocoapods/specs.git:
     - FBSnapshotTestCase
     - Masonry
     - MJExtension
   https://github.com/ioszhanghui/GMPublicRepo.git:
     - GMDataTool
+    - GMmacros
     - GMSandboxTool
 
 EXTERNAL SOURCES:
@@ -40,12 +39,12 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   GMDataTool: 59eee4429083c1babcd443dd16ca9499b4f9b0c5
-  GMEnvirSwitch: cdc76181ef5730c55fc47d52a76144f12eab1916
-  GMmacros: 96f90d11cbeae605728ea7f99ef511e77537909a
+  GMEnvirSwitch: 1fdbd3c243f5cb3016931fe360929e826b614e9f
+  GMmacros: 2f5feff28e116006525dc58ccb393b77e4921e6d
   GMSandboxTool: 22079f31fe09c23b9bd66c0cf2e3f03ed5db1e28
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
 
-PODFILE CHECKSUM: 8f1d105785503938ff9d9a273368b38950b1a351
+PODFILE CHECKSUM: ee4c07491abff6d62627ac1412dd9d38eafe1b24
 
 COCOAPODS: 1.5.3
