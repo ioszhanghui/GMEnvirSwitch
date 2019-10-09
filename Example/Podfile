@@ -1,5 +1,4 @@
 #use_frameworks!
-source 'http://code.ds.gome.com.cn/gitlab/zhanghui-ds5/PrivateRepo.git'
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/ioszhanghui/GMPublicRepo.git'
 
